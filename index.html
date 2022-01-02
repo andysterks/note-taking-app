@@ -8,16 +8,20 @@
     <title>Note Taking App</title>
 </head>
 <body>
-    <div class="page-container">
+    <div id="page-container">
+        <div class="title-container">
+            <h1>Note-Taking App</h1>
+        </div>
         <div id="form-container">
-            <label for="note-textarea">Enter your note here</label>
+            <label for="note-textarea">Enter your note here (press <code>Shift</code> + <code>Enter</code> to add new note)</label>
             <textarea id="note-textarea"></textarea>
             <button id="create-note-button">Create Note</button>
         </div>
         <div id="notes-container">
             <div id="notes-list">
-                <div id="note-1234" class="note">
-                    <p>This is my first note...</p>
+                <div id="empty-note" class="note">
+                    <h3>No notes created yet!</h3>
+                    <p>Create your first note above!</p>
                 </div>
             </div>
         </div>
