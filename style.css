@@ -13,7 +13,7 @@
 
 .note {
     width: 100%;
-    padding: 20px;
+    padding: 10px 20px;
     border: 1px solid #ccc;
     border-radius: 15px;
     background-color: #fff;
@@ -46,6 +46,7 @@ textarea {
     border: 0px;
     box-shadow: 4px 4px 10px rgba(0,0,0,0.06);
     height:150px;
+    white-space: pre-wrap;
 }
 
 button {

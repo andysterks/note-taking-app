@@ -13,9 +13,11 @@
             <h1>Note-Taking App</h1>
         </div>
         <div id="form-container">
-            <label for="note-textarea">Enter your note here (press <code>Shift</code> + <code>Enter</code> to add new note)</label>
-            <textarea id="note-textarea"></textarea>
-            <button id="create-note-button">Create Note</button>
+            <form id="note-form">
+                <label for="note-textarea">Enter your note here</label>
+                <textarea id="note-textarea" required></textarea>
+                <button id="create-note-button">Create Note</button>
+            </form>
         </div>
         <div id="notes-container">
             <div id="notes-list">
