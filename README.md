@@ -1,7 +1,5 @@
 # Vanilla Javascript Note-Taking App
 
-<br>
-
 _A note-taking app written entirely in pure Javascript, HTML and CSS_
 
 <br>
