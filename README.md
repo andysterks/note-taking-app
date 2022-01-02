@@ -6,11 +6,11 @@ _A note-taking app written entirely in pure Javascript, HTML and CSS_
 
 <br>
 
-Live working version [here](https://andysterks.github.io/JS-Tetris)
+Live working version [here](https://software-development-mastermind.github.io/note-taking-js-lv1/)
 
 <br>
 
-<image src="images/game_play_crop.png">
+<image src="images/note-taking-screenshot.jpg">
 
 ## Summary
 
