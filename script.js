@@ -3,6 +3,7 @@ document.addEventListener('keydown', e => {
     if (e.key === 'Enter') {
       addNewNote();
     }
+     
   }
 });
 
@@ -20,11 +21,26 @@ function addNewNote() {
   const note = document.createElement('div');
   note.classList.add('note');
 
-  const noteTitle = document.createElement('h3');
+  const noteHeader = document.createElement('div');
+  noteHeader.classList.add('note-header');
+
+  const noteTitle = document.createElement('p');
+  noteTitle.classList.add('note-title');
   noteTitle.textContent = new Date().toLocaleString();
-  note.appendChild(noteTitle);
+  noteHeader.appendChild(noteTitle);
+
+  note.appendChild(noteHeader);
+
+  const noteDeleteButton = document.createElement('p');
+  noteDeleteButton.classList.add('note-delete-button');
+  noteDeleteButton.textContent = 'X';
+  noteDeleteButton.addEventListener('click', e => {
+    note.parentElement.removeChild(note);
+  });
+  noteHeader.appendChild(noteDeleteButton);
 
   const noteText = document.createElement('p');
+  noteText.classList.add('note-text');
   const noteTextArea = document.getElementById('note-textarea');
   noteText.textContent = noteTextArea.value;
   note.appendChild(noteText);

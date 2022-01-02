@@ -17,6 +17,24 @@
     border: 1px solid #ccc;
     border-radius: 15px;
     background-color: #fff;
+    float: left;
+}
+
+.note-title {
+    float: left;
+    font-weight: bold;
+}
+
+.note-delete-button {
+    float: right;
+    color: red;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.note-text {
+    float: left;
+    clear: both;
 }
 
 textarea {
