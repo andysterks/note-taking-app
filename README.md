@@ -2,8 +2,6 @@
 
 _A note-taking app written entirely in pure Javascript, HTML and CSS_
 
-<br>
-
 Live working version [here](https://software-development-mastermind.github.io/note-taking-js-lv1/)
 
 <br>
